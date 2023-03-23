@@ -49,3 +49,23 @@
               <p id="akanNameMessage"></p>
           </div>
        </div>
+       <script>
+         const WEEK_DAYS=['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+         const MALE_NAMES=["Kwame", "Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi"];
+         const FEMALE_NAMES=["Ama", "Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua"];
+
+         let form = document.getElementById("form");
+
+         function getDayOfTheWeek(birthday){
+            const dateArray = birthday.split("-");
+            let monthOfBirth = parseInt(dateArray[1]);
+            let dateOfBirth = parseInt(dateArray[2]);
+            let yearOfBirth = parseInt(dateArray[0]);
+            let century = Math.floor(yearOfBirth/100);
+            let year = yearOfBirth-(century*100);
+
+           dayOfTheWeek=Math.floor( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(monthOfBirth+1)/10)) + dateOfBirth ) % 7;
+
+          return dayOfTheWeek;
+        }
+       </script>
