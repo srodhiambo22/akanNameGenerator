@@ -16,7 +16,7 @@ Sunday (Kwesida)- Kwasi for Male or Akosua for Female- These names are given to 
 
 ## Web application setup:
 To view the app, open the Github Pages link provided below on the README. Here is a run through of how to set up the application
-1.	Clone this repository using git clone https://srodhiambo22.github.io/akanNameGenerator/  or downloading a ZIP file of the code.
+1.	Clone this repository using git clone  https://srodhiambo22.github.io/akanNameGenerator/  or downloading a ZIP file of the code.
 2.	The repository, if downloaded as a .zip file will need to be extracted on your preferred location and opened
 3.	Open the index.html file to view the application on your preferred web browser
 ## Known Bugs:
@@ -27,7 +27,7 @@ Cannot query dates past 2023.
 ## Support and contact details:
 You can provide feedback or raise any issues/ bugs through samuel.odhiambo01@student.moringaschool.com
 ## Live Site:
-You can view the live site on GitHub Pages at: https://srodhiambo22.github.io/akanNameGenerator/
+You can view the live site on GitHub Pages at:  https://srodhiambo22.github.io/akanNameGenerator/
 ## Copyright and License:
 This project is licensed under MIT.
 
