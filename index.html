@@ -79,5 +79,22 @@
                console.log (akanName);
             }
             return akanName;
-}
+        }
+         form.addEventListener('submit', function(event){
+            event.preventDefault();
+            birthday = document.getElementById("birthday").value;
+            genderValue = document.getElementById("gender").value;
+
+            const dayOfTheWeek = getDayOfTheWeek(birthday);
+            const akanName = generateAkanName(dayOfTheWeek, genderValue);
+
+            var message = "Hello, <br>Your birth date is: <b>" + birthday +
+                  ".</b><br> You were born on a <b>" + WEEK_DAYS[dayOfTheWeek]+
+                  ".</b><br>Your Akan name is: <b>" + akanName +"</b>";
+
+            var akanNameMessage = document.getElementById('akanNameMessage');
+
+            akanNameMessage.innerHTML +=message;
+         })
+
        </script>
