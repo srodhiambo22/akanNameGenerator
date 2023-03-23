@@ -29,3 +29,23 @@
            <p class="lead my-6 text-muted"> Fill in your details here <a href= "#form">here</a> to find out more about your Akan name and appellations.</p>
 
         </div>
+         <div class="col-md-6 text-center d-none d-md-block">
+          <div class="container">
+              <form id="form" method="post">
+                  <div class="field">
+                      <input type="date" name="birthday" id="birthday" required>
+                      <select id="gender">
+                          <option value="none" selected>Gender</option>
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                      </select>
+                  </div>
+                  <div class="field">
+                      <button type="submit">Click here to get your Akan Name </button>
+                  </div>
+              </form>
+          </div>
+          <div>
+              <p id="akanNameMessage"></p>
+          </div>
+       </div>
