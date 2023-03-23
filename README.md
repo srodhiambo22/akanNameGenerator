@@ -21,9 +21,11 @@ To view the app, open the Github Pages link provided below on the README. Here i
 3.	Open the index.html file to view the application on your preferred web browser
 ## Known Bugs:
 Cannot query dates past 2023.
+
 ## Technologies Used:
 1.	HTML
 2.	Javascript
+
 ## Support and contact details:
 You can provide feedback or raise any issues/ bugs through samuel.odhiambo01@student.moringaschool.com
 ## Live Site:
