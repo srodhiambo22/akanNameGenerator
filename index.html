@@ -68,4 +68,16 @@
 
           return dayOfTheWeek;
         }
+         function generateAkanName(dayOfTheWeek,genderValue){
+            var akanName= "Unknown";
+            if (genderValue == "female"){
+               akanName=FEMALE_NAMES[dayOfTheWeek];
+               console.log (akanName);
+
+            }else if (genderValue == "male"){
+               akanName=MALE_NAMES[dayOfTheWeek];
+               console.log (akanName);
+            }
+            return akanName;
+}
        </script>
